@@ -1,14 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `tiptobe`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.tiptobe.com`
   },
-  plugins: [{
-    resolve: 'gatsby-plugin-google-analytics',
-    options: {
-      "trackingId": ""
-    }
-  }, "gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", {
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"
